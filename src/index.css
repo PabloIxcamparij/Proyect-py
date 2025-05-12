@@ -2,11 +2,18 @@
 
 :root {
     --primary-bg: #f3f4f6; /* Light mode background */
-    --primary-text: #1a1a1a; /* Light mode text */
+
+    --secundary-bg: #f3f4f6; /* Dark mode background */
+
+    --primary-text: #0d1b2a; /* Light mode text */
+
   }
   
   .dark {
-    --primary-bg: #111827; /* Dark mode background */
+    --primary-bg: #0d1b2a; /* Dark mode background */
+
+    --secundary-bg: #1b263b; /* Dark mode background */
+
     --primary-text: #ffffff; /* Dark mode text */
   }
   
@@ -18,6 +25,14 @@
   
   .bg-primary {
     background-color: var(--primary-bg);
+  }
+
+  .nav-primary {
+    background-color: var(--secundary-bg);
+  }
+
+  .menu-account {
+    background-color: var(--secundary-bg);
   }
   
   .text-primary {

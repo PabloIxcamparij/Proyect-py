@@ -9,7 +9,7 @@ export default function MainLayout() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-background-light dark:bg-background-dark">
+    <div className="min-h-screen">
       <NavBar />
       <main className="container mx-auto px-4 py-8">
         <Outlet />
